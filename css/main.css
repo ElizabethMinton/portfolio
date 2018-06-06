@@ -1,0 +1,131 @@
+body {
+    font-family: alegreya sans;
+}
+
+.full-width {
+    width: 1200px;
+    margin: auto 0;
+}
+
+.half-width {
+    float: left;
+    width: 500px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*****HEADER****/
+header {
+    background-image: url("../img/header-image.jpg");
+    background-size: cover;
+    height: 800px;
+    font-family: alegreya sans;
+}
+
+nav ul li {
+    display: inline;
+    padding: 100px 40px 0px 0px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    text-align: right;
+    padding: 275px 75px 0px 0px;
+    font-size: 60px;
+    margin: 0;
+}
+
+/*****Portfolio*****/
+
+#portfolio .half-width {
+    padding: 0px 50px;
+}
+
+
+#roguepic, #jubileepic, #holsteepic {
+    width: 500px;
+    border: 1px solid lightgray;
+}
+
+#holsteepic {
+    margin: 15px 0px;
+}
+
+.description {
+    height: 350px;
+    width: 400px;
+    text-align: left;
+}
+
+.description h3 {
+    margin: 0;
+    padding-top: 75px;
+    font-size: 24px;
+}
+
+.description h4 {
+    margin-top: 0;
+    color: darkgray;
+    font-size: 20px;
+}
+
+/****About Me****/
+
+#aboutme {
+    background: #c7b4c7;
+    text-align: left;
+    float: left;
+}
+
+#aboutmepic {
+    width: 500px;
+    padding: 50px;
+}
+
+#profile {
+    text-align: left;
+    width: 400px;
+    margin-left: 150px;
+    padding-top: 50px;
+}
+
+#profile h2 {
+    text-align: left;
+}
+
+/****Let's Connect****/
+#connect {
+    padding-top: 20px;
+    background: #907180;
+    float: left;
+}
+
+#connect .half-width {
+    width: 300px;
+    padding: 0px 150px;
+}
+
+#connect p a {
+    text-decoration: none;
+    color: black;
+}
+
+.fab {
+    font-size: 30px;
+    padding-right: 20px;
+    color: black;
+}
+
+#connect h4 {
+    clear: both;
+    padding-top: 50px;
+    text-align: center;
+}
